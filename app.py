@@ -27,11 +27,11 @@ model = load_model()
 
 st.markdown("""
     <style>
-    /* General Styling */
-    .stApp {
-        background-color: #1a1a1a; /* Dark background */
-        color: #e0e0e0;
-    }
+    # /* General Styling */
+    # .stApp {
+    #     background-color: #1a1a1a; /* Dark background */
+    #     color: #e0e0e0;
+    # }
     
     /* Title and Header Styling */
     .stTitle {
@@ -83,7 +83,7 @@ with mid_col:
         # display a warning if the image is not found at the path
         st.warning("Car image not found. Please ensure 'assets/car.png' exists.")
         
-    st.title('Used Car Price Predictor')
+    st.title('            Used Car Price Predictor')
 
 st.markdown("<p style='text-align: center;'>This machine learning tool provides an estimated resale value for used cars. Fill in the car's details below to get a prediction.</p>", unsafe_allow_html=True)
 st.divider()
